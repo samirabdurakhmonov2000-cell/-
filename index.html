@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>❤️ ДЛЯ ШОХА ❤️</title>
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+    overflow:hidden;
+    font-family:Arial,sans-serif;
+}
+
+.card{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 0 30px rgba(0,0,0,.2);
+    animation:appear 1.5s;
+}
+
+h1{
+    color:#ff4d6d;
+    font-size:40px;
+}
+
+p{
+    font-size:22px;
+    color:#444;
+}
+
+button{
+    margin-top:20px;
+    padding:15px 30px;
+    border:none;
+    border-radius:30px;
+    background:#ff4d6d;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff2e55;
+}
+
+@keyframes appear{
+    from{
+        transform:scale(0.5);
+        opacity:0;
+    }
+    to{
+        transform:scale(1);
+        opacity:1;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+    <h1>❤️ МОЕМУ ШОХУ ❤️</h1>
+
+    <p>
+        Ты — самое прекрасное, что случилось в моей жизни.<br><br>
+        Спасибо, что ты есть.<br><br>
+        Я люблю тебя бесконечно ❤️
+    </p>
+
+    <button onclick="love()">
+        Нажми сюда ❤️
+    </button>
+</div>
+
+<script>
+function love(){
+    alert("💖 Я люблю тебя больше с каждым днем! 💖");
+}
+</script>
+
+</body>
+</html>
